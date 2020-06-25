@@ -1,13 +1,10 @@
 class Dog
-  def name= (dog_name)
-    this_dogs_name
+  def initialize (name)
+    @name = name
   end
   def name
-    this_dogs_name
+    @name
   end
 end
 
-snoopy=Dog.new
-snoopy.name=("Snoopy")
 
-snoopy.name
